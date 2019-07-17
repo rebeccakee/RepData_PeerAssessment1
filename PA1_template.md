@@ -75,7 +75,7 @@ hist(total.steps$steps,
      col = "light blue")
 ```
 
-![](PA1_template_files/figure-html/Histogram of total steps-1.png)<!-- -->
+![](PA1_template_files/figure-html/Histogram-total-steps-1.png)<!-- -->
 
 Calculate and report the mean and median of the total number of steps taken per day
 
@@ -110,7 +110,7 @@ plot(stepsbyinterval$interval,
      )
 ```
 
-![](PA1_template_files/figure-html/Average daily activity pattern-1.png)<!-- -->
+![](PA1_template_files/figure-html/Average-daily-activity-pattern-1.png)<!-- -->
 
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -171,7 +171,7 @@ hist(total.steps2$steps,
      col = "light blue")
 ```
 
-![](PA1_template_files/figure-html/Calculate total steps with new dataset-1.png)<!-- -->
+![](PA1_template_files/figure-html/Total-steps-new-dataset-1.png)<!-- -->
 
 Calculate mean and median steps per day, report difference from original data
 
@@ -217,5 +217,5 @@ ggplot(stepsbyday, aes(interval, steps)) +
     theme(strip.background = element_rect(fill = "light blue")) 
 ```
 
-![](PA1_template_files/figure-html/Panel plot comparing weekday vs weekend-1.png)<!-- -->
+![](PA1_template_files/figure-html/Panel-plot-1.png)<!-- -->
 
