@@ -82,6 +82,7 @@ plot(stepsbyinterval$interval,
      ylab = "Number of steps"
      )
 ```
+
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 ```{r Interval with max steps}
 max.steps <- max(stepsbyinterval$steps)
@@ -175,6 +176,6 @@ ggplot(stepsbyday, aes(interval, steps)) +
     ggtitle("Average daily activity pattern by weekday versus weekend") +    
     theme_bw() + 
     theme(plot.title = element_text(hjust = 0.5)) +
-    theme(strip.background = element_rect(fill = "light blue"))
+    theme(strip.background = element_rect(fill = "light blue")) 
 ```
 

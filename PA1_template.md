@@ -111,6 +111,7 @@ plot(stepsbyinterval$interval,
 ```
 
 ![](PA1_template_files/figure-html/Average daily activity pattern-1.png)<!-- -->
+
 Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
 ```r
@@ -213,7 +214,7 @@ ggplot(stepsbyday, aes(interval, steps)) +
     ggtitle("Average daily activity pattern by weekday versus weekend") +    
     theme_bw() + 
     theme(plot.title = element_text(hjust = 0.5)) +
-    theme(strip.background = element_rect(fill = "light blue"))
+    theme(strip.background = element_rect(fill = "light blue")) 
 ```
 
 ![](PA1_template_files/figure-html/Panel plot comparing weekday vs weekend-1.png)<!-- -->
